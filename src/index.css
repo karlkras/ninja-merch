@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  margin: 40px;
+  background-color: #ddd;
+}
+
+.btn {
+  @apply
+    bg-amber-600
+    py-2 px-3 my-2
+    inline-block
+    text-white
+    rounded-md
+    border-2
+    border-amber-600
+}
+
+.gray_background {
+  background-color: rgb(128, 128, 128);
+  border: rgb(128, 128, 128);
+}
+
+.cart-item:hover{
+  border-width: 3px;
+  border-color: lightgray;
+  border-radius: 5px;
+}
